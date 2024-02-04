@@ -12,3 +12,4 @@ export const headerLinks = [
     route: '/about',
   },
 ];
+export const titles = ['creative', 'web developer', 'web designer'];

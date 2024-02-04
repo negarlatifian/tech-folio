@@ -10,6 +10,17 @@ const config = {
   ],
   prefix: '',
   theme: {
+    theme: {
+      letterSpacing: {
+        tightest: '-.075em',
+        tighter: '-.05em',
+        tight: '-.02em',
+        normal: '0',
+        wide: '.025em',
+        wider: '.04em',
+        widest: '.1em',
+      },
+    },
     container: {
       center: true,
       padding: '2rem',
