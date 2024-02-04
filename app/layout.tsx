@@ -1,26 +1,27 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
+import Header from '@/components/shared/Header';
 
 const hagrid = localFont({
   src: [
     {
-      path: 'fonts/Hagrid-Regular-trial.ttf',
+      path: '../public/Hagrid-Regular-trial.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: 'fonts/Hagrid-Italic-trial.ttf',
+      path: '../public/Hagrid-Italic-trial.ttf',
       weight: '400',
       style: 'italic',
     },
     {
-      path: 'fonts/Hagrid-Text-Extrabold-trial.ttf',
+      path: '../public/Hagrid-Text-Extrabold-trial.ttf',
       weight: '800',
       style: 'normal',
     },
     {
-      path: 'fonts/Hagrid-Text-Extrabold-Italic-trial.ttf',
+      path: '../public/Hagrid-Text-Extrabold-Italic-trial.ttf',
       weight: '800',
       style: 'italic',
     },
@@ -40,7 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={hagrid.className}>{children}</body>
+      <body className={`${hagrid.variable}`}>{children}</body>
     </html>
   );
 }
