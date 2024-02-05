@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+.skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15rem;
+  background-color: #ececec;
+}
+.skills__h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.8rem;
+  padding: 3rem 4rem 1.5rem;
+}
+.skills__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 7rem;
+  justify-content: space-between;
+  margin-left: 8rem;
+  padding-bottom: 3rem;
+  width: 58rem;
+}
+.skills__blockContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.skills__block {
+  border-radius: 1rem;
+  margin: 0;
+  color: black;
+  height: 60px;
+  width: 60px;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border: 2px solid #222222;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills__logo {
+  width: 2rem;
+}
+
+.skills__info {
+  font-family: 'IBM Plex Sans', sans-serif;
+}

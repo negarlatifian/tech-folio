@@ -41,7 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${hagrid.variable}`}>{children}</body>
+      <body className={`${hagrid.variable} bg-gray`}>{children}</body>
     </html>
   );
 }
