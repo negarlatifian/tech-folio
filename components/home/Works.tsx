@@ -10,9 +10,9 @@ type WorkItemProps = {
 
 const Works = () => {
   return (
-    <section className='projects'>
-      <h1>Projects</h1>
-      <div className='projects__container'>
+    <section className='flex flex-col'>
+      <h1 className='font-sans text-3xl'>Projects</h1>
+      <div className='flex flex-wrap gap-6 justify-around'>
         {projects.map((project: WorkItemProps) => (
           <ProjectItem
             title={project.title}

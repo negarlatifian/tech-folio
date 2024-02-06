@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const CirclesRow = () => {
+const CirclesRow = ({ size }: { size: number }) => {
   return (
     <div>
       {' '}
@@ -8,24 +8,24 @@ const CirclesRow = () => {
         <li>
           <Image
             src='/icons/black-circle.svg'
-            width={30}
-            height={30}
+            width={size}
+            height={size}
             alt='circle'
           />
         </li>
         <li>
           <Image
             src='/icons/blue-circle.svg'
-            width={30}
-            height={30}
+            width={size}
+            height={size}
             alt='circle'
           />
         </li>
         <li>
           <Image
             src='/icons/orange-circle.svg'
-            width={30}
-            height={30}
+            width={size}
+            height={size}
             alt='circle'
           />
         </li>
