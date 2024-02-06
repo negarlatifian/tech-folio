@@ -19,10 +19,6 @@ const Header = () => {
         <nav className='md:flex-between w-full max-w-xs'>
           <NavItems />
         </nav>
-
-        {/* <div className='flex w-32 justify-end gap-3'>
-
-</div> */}
       </div>
       <CirclesRow size={30} />
     </header>
