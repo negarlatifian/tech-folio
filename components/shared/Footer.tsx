@@ -15,7 +15,7 @@ const Footer = () => {
             className='w-6'
           />
         </Link>
-        <p className='font-sans'>
+        <p className='font-ibm'>
           2024 Neela N. Latifian. All Rights Reserved.{' '}
         </p>
       </div>
