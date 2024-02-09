@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className=' bg-orange w-full mt-24 px-32 '>
+    <footer className=' bg-blue w-full mt-24 px-32 '>
       <div className='flex-center wrapper flex-between flex flex-col gap-4 p-5 text-center sm:flex-row'>
         <Link href='/'>
           <Image
@@ -15,7 +15,9 @@ const Footer = () => {
             className='w-6'
           />
         </Link>
-        <p>2024 Neela N. Latifian. All Rights Reserved. </p>
+        <p className='font-sans'>
+          2024 Neela N. Latifian. All Rights Reserved.{' '}
+        </p>
       </div>
     </footer>
   );
