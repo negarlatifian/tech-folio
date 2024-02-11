@@ -4,13 +4,14 @@ const CirclesRow = ({ size }: { size: number }) => {
   return (
     <div>
       {' '}
-      <ul className='flex gap-3'>
+      <ul className='flex md:gap-3 gap-2'>
         <li>
           <Image
             src='/icons/black-circle.svg'
             width={size}
             height={size}
             alt='circle'
+            className='md:w-8 w-3'
           />
         </li>
         <li>
@@ -19,6 +20,7 @@ const CirclesRow = ({ size }: { size: number }) => {
             width={size}
             height={size}
             alt='circle'
+            className='md:w-8 w-3'
           />
         </li>
         <li>
@@ -27,6 +29,7 @@ const CirclesRow = ({ size }: { size: number }) => {
             width={size}
             height={size}
             alt='circle'
+            className='md:w-8 w-3'
           />
         </li>
       </ul>

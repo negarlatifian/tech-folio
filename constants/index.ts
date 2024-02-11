@@ -5,11 +5,11 @@ export const headerLinks = [
   },
   {
     label: 'About',
-    route: '/about',
+    route: '#about',
   },
   {
     label: 'Works',
-    route: '/works',
+    route: '#works',
   },
 ];
 export const titles = ['creative', 'web developer', 'web designer'];

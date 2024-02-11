@@ -6,7 +6,7 @@ import CirclesRow from '../ui/CirclesRow';
 
 const Header = () => {
   return (
-    <header className='flex items-center justify-between w-full py-10'>
+    <header className='flex items-center justify-between w-full md:py-10 py-4'>
       <div className='wrapper flex items-center'>
         <Link href='/' className='w-36'>
           <Image
@@ -14,9 +14,10 @@ const Header = () => {
             width={50}
             height={50}
             alt='Neela Negar Latifian Logo'
+            className='w-9 md:w-12'
           />
         </Link>
-        <nav className='md:flex-between w-full max-w-xs'>
+        <nav className='md:flex-between w-full max-w-xs flex-row'>
           <NavItems />
         </nav>
       </div>

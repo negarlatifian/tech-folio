@@ -7,7 +7,7 @@ import React from 'react';
 const NavItems = () => {
   const pathName = usePathname();
   return (
-    <ul className='md:flex-between flex w-full flex-col md:flex-row items-start gap-5'>
+    <ul className='md:flex-between flex w-full md:flex-row items-start gap-2 md:gap-5'>
       {headerLinks.map((link) => {
         const isActive = pathName === link.route;
         return (
@@ -17,7 +17,9 @@ const NavItems = () => {
               isActive && 'text-orange underline'
             } font-sans flex-center p-medium-16 whitespace-nowrap`}
           >
-            <Link href={link.route}>{link.label}</Link>
+            <Link href={link.route} className='text-sm md:text-lg'>
+              {link.label}
+            </Link>
           </li>
         );
       })}

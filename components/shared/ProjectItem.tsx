@@ -17,7 +17,7 @@ interface ITechStack {
 }
 const ProjectItem = ({ title, description, techStack }: WorkItemProps) => {
   return (
-    <section className='w-1/3 mt-8 border rounded-[20px] p-5 border-black flex flex-col'>
+    <section className='w md:w-1/3 mt-8 border rounded-[20px] p-4 md:p-5 border-black flex flex-col'>
       <CirclesRow size={10} />
       <div className='mt-4'>
         <h2 className='font-sans'>{title}</h2>
