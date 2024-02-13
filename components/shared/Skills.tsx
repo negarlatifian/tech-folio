@@ -9,11 +9,11 @@ const Skills = () => {
       <h1 className='font-sans text-3xl '>Skills</h1>
       <div className='flex flex-wrap gap-8 w-10/12 mt-10 justify-center mr-auto ml-auto'>
         {imageSrc.map((image) => (
-          <div className='flex flex-col items-center justify-center '>
+          <div className='flex flex-col items-center justify-center hover:scale-150 '>
             <div className='flex justify-center border border-black rounded-full w-20 h-20 p-4'>
               <Image
                 src={image.source}
-                className='w-12 h-auto'
+                className='w-12 h-auto filter grayscale hover:grayscale-0 '
                 alt={image.info}
                 width={image.width}
                 height={image.height}
