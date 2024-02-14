@@ -22,18 +22,12 @@ const About = () => {
       </div>
 
       <div>
-        {/* <AnimatedText
+        <AnimatedText
           once
           el='h1'
-          text={[
-            'Hi!  I’m Neela.',
-            'a Full-Stack Developer with a knack for crafting  beautiful, user-friendly interfaces.',
-            "My skills lie in both front-end development and design, allowing me to bring pixel-perfect interfaces to life while ensuring they're accessible to everyone.",
-            "When I'm not coding, you might find me exploring the artistic side of things as a photo-based artist.",
-            'Curious to see what I create? You can check out my work here',
-          ]}
-          className='text-2xl font-ibm leading-relaxed'
-        /> */}
+          text={[`Hi!  I’m Neela!`]}
+          className='font-sans text-[2rem] max-w-screen-xl text-black mt-10 mr-14 flex items-center justify-center'
+        />
         <HeroText />
       </div>
     </section>
