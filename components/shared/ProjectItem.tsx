@@ -32,12 +32,9 @@ const ProjectItem = ({ title, description, techStack }: WorkItemProps) => {
           })}
         </ul> */}
         <ul className='flex flex-row gap-5 flex-wrap mt-5 px-4'>
-          {techStack.map((tech) => {
+          {techStack.map((tech, i) => {
             return (
-              <li
-                key={tech.info}
-                className='flex flex-col justify-center items-center'
-              >
+              <li key={i} className='flex flex-col justify-center items-center'>
                 <Image
                   src={tech.source}
                   width={tech.width}

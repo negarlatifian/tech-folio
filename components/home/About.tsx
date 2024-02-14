@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { motion, useInView, useAnimation, Variant } from 'framer-motion';
 import { AnimatedText } from '../shared/AnimatedText';
+import HeroText from '../shared/HeroText';
 
 const About = () => {
   const text = `Hi!  I’m Neela. 
@@ -21,7 +22,7 @@ const About = () => {
       </div>
 
       <div>
-        <AnimatedText
+        {/* <AnimatedText
           once
           el='h1'
           text={[
@@ -32,7 +33,8 @@ const About = () => {
             'Curious to see what I create? You can check out my work here',
           ]}
           className='text-2xl font-ibm leading-relaxed'
-        />
+        /> */}
+        <HeroText />
       </div>
     </section>
   );
