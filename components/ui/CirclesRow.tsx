@@ -8,28 +8,28 @@ const CirclesRow = ({ size }: { size: number }) => {
         <li>
           <Image
             src='/icons/black-circle.svg'
-            width={size}
-            height={size}
+            width={10}
+            height={10}
             alt='circle'
-            className='md:w-8 w-3'
+            className={`md:w-${size} w-4`}
           />
         </li>
         <li>
           <Image
             src='/icons/blue-circle.svg'
-            width={size}
-            height={size}
+            width={6}
+            height={6}
             alt='circle'
-            className='md:w-8 w-3'
+            className={`md:w-${size} w-4`}
           />
         </li>
         <li>
           <Image
             src='/icons/orange-circle.svg'
-            width={size}
-            height={size}
+            width={6}
+            height={6}
             alt='circle'
-            className='md:w-8 w-3'
+            className={`md:w-${size} w-4`}
           />
         </li>
       </ul>

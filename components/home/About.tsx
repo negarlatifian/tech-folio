@@ -3,6 +3,9 @@ import Image from 'next/image';
 import { motion, useInView, useAnimation, Variant } from 'framer-motion';
 import { AnimatedText } from '../shared/AnimatedText';
 import HeroText from '../shared/HeroText';
+import Button from '../ui/Button';
+import styles from './style.module.scss';
+import styles2 from '../ui/style.module.scss';
 
 const About = () => {
   const text = `Hi!  I’m Neela. 
@@ -11,23 +14,31 @@ const About = () => {
   const textSplit = text.split(' ');
   return (
     <section id='about' className='mt-80 '>
-      <div className='ml-[-12rem]'>
+      <div className='ml-[-12rem] h-[20vh] sm:h-[60vh] md:h-[100vh]'>
         <Image
           src='/images/image-group.png'
           width={1113}
           height={350}
           alt='profile photo'
-          className='scale-90'
+          className='md:scale-90 scale-110'
         />
-      </div>
-
-      <div>
         <AnimatedText
           once
           el='h1'
           text={[`Hi!  I’m Neela!`]}
-          className='font-sans text-[2rem] max-w-screen-xl text-black mt-10 mr-14 flex items-center justify-center'
+          className='font-sans text-[2rem] max-w-screen-xl text-black mt-10 ml-28 flex items-center justify-center'
         />
+        <Button
+          className={styles.Button}
+          backgroundColor='#F79675'
+          href='#aboutMe'
+          target='_self'
+        >
+          <p className='font-sans'>About Me</p>
+        </Button>
+      </div>
+
+      <div className=''>
         <HeroText />
       </div>
     </section>

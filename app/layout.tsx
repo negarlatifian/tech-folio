@@ -1,8 +1,14 @@
 import type { Metadata } from 'next';
+import { IBM_Plex_Sans } from 'next/font/google';
 import localFont from 'next/font/local';
 import './globals.css';
 import Header from '@/components/shared/Header';
 
+const ibm = IBM_Plex_Sans({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '600'],
+  variable: '--font-ibm',
+});
 const hagrid = localFont({
   src: [
     {
@@ -41,7 +47,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${hagrid.variable} bg-gray`}>{children}</body>
+      <body className={`${hagrid.variable} ${ibm.variable} bg-gray`}>
+        {children}
+      </body>
     </html>
   );
 }

@@ -20,8 +20,8 @@ interface ITechStack {
 const Works = () => {
   return (
     <section id='works' className='flex flex-col mt-20'>
-      <h1 className='font-sans text-3xl sm:text-lg'>Projects</h1>
-      <div className='flex flex-wrap flex-col md:flex-row gap-6 justify-around'>
+      <h1 className='font-sans md:text-3xl text-lg'>Projects</h1>
+      <div className='flex flex-wrap flex-col md:flex-row gap-1 justify-around'>
         {projects.map((project: WorkItemProps, i) => (
           <ProjectItem
             key={i}

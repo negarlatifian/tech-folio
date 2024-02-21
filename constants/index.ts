@@ -113,7 +113,7 @@ export const projects = [
   {
     title: 'Simon Game',
     description:
-      "Web version of simon game, a memory which game creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex.{' '}",
+      'Web version of simon game, a memory which game creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex.',
     stack: 'HTML, CSS, JavaScript',
     link: 'https://github.com/negarlatifian/simongame',
     techStack: [
@@ -141,7 +141,7 @@ export const projects = [
   {
     title: 'To Do List',
     description:
-      "To Do List app which makes it possible for the user to add new tasks, mark them as done and delete them.{' '}",
+      'To Do List app which makes it possible for the user to add new tasks, mark them as done and delete them.',
     stack: 'React, Redux, CSS',
     link: '',
     techStack: [
@@ -166,8 +166,8 @@ export const projects = [
     ],
   },
   {
-    title: 'Portfolio',
-    description: 'My personal Tech Portfoli website',
+    title: 'TechFolio',
+    description: 'My personal Tech Portfolio website',
     stack: 'React, Redux, CSS',
     link: '',
     techStack: [

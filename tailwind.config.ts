@@ -56,7 +56,7 @@ const config = {
       },
       fontFamily: {
         sans: ['var(--font-hagrid)'],
-        ibm: ['IBM Plex Sans'],
+        ibm: ['var(--font-ibm)'],
       },
     },
   },

@@ -12,7 +12,7 @@ const Word = ({
 }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
-    <span className='font-sans mr-3 mt-3 text-[1.5rem] relative'>
+    <span className='font-sans mr-1 md:mr-3 mt-3 text-[0.7rem] md:text-[1.5rem] relative'>
       <span className='absolute opacity-30'>{children}</span>
       <motion.span className='mr-3 mt-3' style={{ opacity }}>
         {children}

@@ -13,7 +13,10 @@ const Paragraph = ({ value }: { value: string }) => {
   const words = value.split(' ');
 
   return (
-    <p className='max-w-screen-xl p-10 flex flex-wrap leading-8' ref={element}>
+    <p
+      className='max-w-screen-xl p-0 md:p-10 flex flex-wrap leading-3 md:leading-8'
+      ref={element}
+    >
       {words.map((word, i) => {
         const start = i / words.length;
         const end = start + 1 / words.length;
