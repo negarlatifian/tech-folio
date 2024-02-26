@@ -7,6 +7,7 @@ type WorkItemProps = {
   title: string;
   description: string;
   link: string;
+  demo: string;
   techStack: ITechStack[];
 };
 
@@ -29,6 +30,7 @@ const Works = () => {
             description={project.description}
             techStack={project.techStack}
             link={project.link}
+            demo={project.demo}
           />
         ))}
       </div>

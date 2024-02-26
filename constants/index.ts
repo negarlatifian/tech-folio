@@ -20,6 +20,7 @@ export const projects = [
     description:
       'URL shortner project which can provide shorter links for long URLS',
     link: 'https://github.com/negarlatifian/MiniLink',
+    demo: ' ',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -65,6 +66,7 @@ export const projects = [
       'Resumate is a CV creator web application where you can create your own CV from available templates in the website',
     stack: 'React, Redux, Typescript, MongoDB, Express, HTML, CSS',
     link: 'https://github.com/negarlatifian/final_project_CVapp',
+    demo: ' ',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -111,11 +113,46 @@ export const projects = [
     ],
   },
   {
+    title: 'Haunted House',
+    description:
+      'A spooky web experience built with Three.js and Vite. This interactive scene features a misty landscape, a detailed house, and ethereal ghosts that wander the environment. Users can explore the scene and immerse themselves in the eerie atmosphere',
+    stack: 'Three.js, JavaScript, HTML, CSS',
+    link: 'https://github.com/negarlatifian/haunted-house',
+    demo: 'https://haunted-house-pink.vercel.app/',
+    techStack: [
+      {
+        source: '/icons/Three.js_Icon.svg',
+        info: 'Three.js',
+        width: 30,
+        height: 30,
+      },
+      {
+        source: '/icons/JavaScript-logo.svg',
+        info: 'JavaScript',
+        width: 30,
+        height: 30,
+      },
+      {
+        source: '/icons/HTML5_logo_and_wordmark.svg',
+        info: 'HTML',
+        width: 30,
+        height: 30,
+      },
+      {
+        source: '/icons/CSS3_logo_and_wordmark.svg',
+        info: 'CSS',
+        width: 30,
+        height: 30,
+      },
+    ],
+  },
+  {
     title: 'Simon Game',
     description:
       'Web version of simon game, a memory which game creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex.',
     stack: 'HTML, CSS, JavaScript',
     link: 'https://github.com/negarlatifian/simongame',
+    demo: ' ',
     techStack: [
       {
         source: '/icons/JavaScript-logo.svg',
@@ -143,7 +180,8 @@ export const projects = [
     description:
       'To Do List app which makes it possible for the user to add new tasks, mark them as done and delete them.',
     stack: 'React, Redux, CSS',
-    link: '',
+    link: ' ',
+    demo: ' ',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -169,7 +207,8 @@ export const projects = [
     title: 'TechFolio',
     description: 'My personal Tech Portfolio website',
     stack: 'React, Redux, CSS',
-    link: '',
+    link: ' ',
+    demo: ' ',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -208,6 +247,7 @@ export const projects = [
     description: 'A bloging webapp coded in NextJs.',
     stack: 'NextJs, MongoDB',
     link: 'https://github.com/negarlatifian/blog',
+    demo: ' ',
     techStack: [
       {
         source: '/icons/Nextjs-logo.svg',
@@ -313,6 +353,12 @@ export const imageSrc = [
   {
     source: '/icons/Figma-logo.svg',
     info: 'Figma',
+    width: 30,
+    height: 30,
+  },
+  {
+    source: '/icons/Three.js_Icon.svg',
+    info: 'Three.js',
     width: 30,
     height: 30,
   },

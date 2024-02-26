@@ -8,6 +8,7 @@ type WorkItemProps = {
   title: string;
   description: string;
   link: string;
+  demo: string;
   techStack: ITechStack[];
 };
 
@@ -22,6 +23,7 @@ const ProjectItem = ({
   description,
   techStack,
   link,
+  demo,
 }: WorkItemProps) => {
   return (
     <section className='md:w-80 mt-8 border rounded-[20px] p-4 md:pb-2 border-black flex flex-col'>
@@ -65,7 +67,7 @@ const ProjectItem = ({
           </div>
           <div>
             <Button
-              href={link}
+              href={demo}
               backgroundColor='#B2D7EF'
               className={styles.Button}
             >
