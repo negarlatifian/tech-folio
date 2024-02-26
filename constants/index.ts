@@ -21,6 +21,7 @@ export const projects = [
       'URL shortner project which can provide shorter links for long URLS',
     link: 'https://github.com/negarlatifian/MiniLink',
     demo: ' ',
+    video: ' ',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -67,6 +68,7 @@ export const projects = [
     stack: 'React, Redux, Typescript, MongoDB, Express, HTML, CSS',
     link: 'https://github.com/negarlatifian/final_project_CVapp',
     demo: ' ',
+    video: ' ',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -119,6 +121,7 @@ export const projects = [
     stack: 'Three.js, JavaScript, HTML, CSS',
     link: 'https://github.com/negarlatifian/haunted-house',
     demo: 'https://haunted-house-pink.vercel.app/',
+    video: '/videos/haunted-house.mp4',
     techStack: [
       {
         source: '/icons/Three.js_Icon.svg',
@@ -153,6 +156,7 @@ export const projects = [
     stack: 'HTML, CSS, JavaScript',
     link: 'https://github.com/negarlatifian/simongame',
     demo: ' ',
+    video: ' ',
     techStack: [
       {
         source: '/icons/JavaScript-logo.svg',
@@ -182,6 +186,7 @@ export const projects = [
     stack: 'React, Redux, CSS',
     link: ' ',
     demo: ' ',
+    video: ' ',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -209,6 +214,7 @@ export const projects = [
     stack: 'React, Redux, CSS',
     link: ' ',
     demo: ' ',
+    video: ' ',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -248,6 +254,7 @@ export const projects = [
     stack: 'NextJs, MongoDB',
     link: 'https://github.com/negarlatifian/blog',
     demo: ' ',
+    video: ' ',
     techStack: [
       {
         source: '/icons/Nextjs-logo.svg',

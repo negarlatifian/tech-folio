@@ -9,6 +9,7 @@ type WorkItemProps = {
   description: string;
   link: string;
   demo: string;
+  video: string;
   techStack: ITechStack[];
 };
 
@@ -24,12 +25,16 @@ const ProjectItem = ({
   techStack,
   link,
   demo,
+  video,
 }: WorkItemProps) => {
   return (
     <section className='md:w-80 mt-8 border rounded-[20px] p-4 md:pb-2 border-black flex flex-col'>
       <CirclesRow size={6} />
       <div className='mt-4 pb-8'>
         <h2 className='font-sans'>{title}</h2>
+        <video className='rounded' width='320' height='240' autoPlay muted>
+          <source src={video} type='video/mp4' />
+        </video>
         <div className='flex flex-col min-h-40'>
           <p className='font-ibm mt-2 min-h-32'>{description}</p>
           <ul className='flex flex-row gap-5 flex-wrap mt-5 px-4 min-h-32'>
