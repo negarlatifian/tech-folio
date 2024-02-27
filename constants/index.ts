@@ -16,6 +16,46 @@ export const titles = ['creative', 'web developer', 'web designer'];
 
 export const projects = [
   {
+    title: 'Jason E. Bowman',
+    description:
+      'This project is a personal portfolio website built for artist Jason E. Bowman. It showcases his work using a clean and modern design.',
+    link: 'https://github.com/negarlatifian/jsonswebsite',
+    demo: 'https://www.jasonebowman.info/',
+    video: '/videos/jason-e-bowman.mp4',
+    techStack: [
+      {
+        source: '/icons/Nextjs-logo.svg',
+        info: 'NextJs',
+        width: 30,
+        height: 6,
+      },
+      {
+        source: '/icons/React-icon.svg',
+        info: 'React',
+        width: 22,
+        height: 23,
+      },
+      {
+        source: '/icons/Tailwind_CSS_Logo.svg',
+        info: 'Tailwind',
+        width: 30,
+        height: 30,
+      },
+      {
+        source: '/icons/HTML5_logo_and_wordmark.svg',
+        info: 'HTML',
+        width: 30,
+        height: 30,
+      },
+      {
+        source: '/icons/CSS3_logo_and_wordmark.svg',
+        info: 'CSS',
+        width: 30,
+        height: 30,
+      },
+    ],
+  },
+  {
     title: 'MiniLink',
     description:
       'URL shortner project which can provide shorter links for long URLS',
@@ -366,6 +406,18 @@ export const imageSrc = [
   {
     source: '/icons/Three.js_Icon.svg',
     info: 'Three.js',
+    width: 30,
+    height: 30,
+  },
+  {
+    source: '/icons/Tailwind_CSS_Logo.svg',
+    info: 'Tailwind',
+    width: 30,
+    height: 30,
+  },
+  {
+    source: '/icons/framer-motion.svg',
+    info: 'Framer Motion',
     width: 30,
     height: 30,
   },

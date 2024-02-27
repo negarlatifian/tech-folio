@@ -32,12 +32,12 @@ const ProjectItem = ({
       <CirclesRow size={6} />
       <div className='mt-4 pb-8'>
         <h2 className='font-sans'>{title}</h2>
-        <video className='rounded' width='320' height='240' autoPlay muted>
+        <video className='rounded mt-5' width='320' height='240' autoPlay muted>
           <source src={video} type='video/mp4' />
         </video>
         <div className='flex flex-col min-h-40'>
           <p className='font-ibm mt-2 min-h-32'>{description}</p>
-          <ul className='flex flex-row gap-5 flex-wrap mt-5 px-4 min-h-32'>
+          <ul className='flex flex-row gap-5 flex-wrap px-4 min-h-32'>
             {techStack.map((tech, i) => {
               return (
                 <li
