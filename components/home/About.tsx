@@ -6,14 +6,24 @@ import HeroText from '../shared/HeroText';
 import Button from '../ui/Button';
 import styles from './style.module.scss';
 import styles2 from '../ui/style.module.scss';
+import dynamic from 'next/dynamic';
+
+// in Order to prevent problems because of the canvas being rendered on the server we use dynamic import
+// for importing Canvas
+const Scene = dynamic(() => import('../ui/Scene'), {
+  ssr: false,
+});
 
 const About = () => {
-  const text = `Hi!  I’m Neela. 
+  const text = `I’m Neela. 
   a Full-Stack Developer with a knack for crafting  beautiful, user-friendly interfaces. My skills lie in both front-end development and design, allowing me to bring pixel-perfect interfaces to life while ensuring they're accessible to everyone. When I'm not coding, you might find me exploring the artistic side of things as a photo-based artist.
   Curious to see what I create? You can check out my work here`;
   const textSplit = text.split(' ');
   return (
     <section id='about' className='mt-80 '>
+      <div className='relative h-screen'>
+        <Scene />
+      </div>
       <div className='ml-[-12rem] h-[20vh] sm:h-[60vh] md:h-[100vh]'>
         <Image
           src='/images/image-group.png'

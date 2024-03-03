@@ -398,12 +398,6 @@ export const imageSrc = [
     height: 30,
   },
   {
-    source: '/icons/Figma-logo.svg',
-    info: 'Figma',
-    width: 30,
-    height: 30,
-  },
-  {
     source: '/icons/Three.js_Icon.svg',
     info: 'Three.js',
     width: 30,
@@ -418,6 +412,30 @@ export const imageSrc = [
   {
     source: '/icons/framer-motion.svg',
     info: 'Framer Motion',
+    width: 30,
+    height: 30,
+  },
+  {
+    source: '/icons/WordPress_blue_logo.svg',
+    info: 'Wordpress',
+    width: 30,
+    height: 30,
+  },
+  {
+    source: '/icons/Figma-logo.svg',
+    info: 'Figma',
+    width: 30,
+    height: 30,
+  },
+  {
+    source: '/icons/midjourney.svg',
+    info: 'Midjourney',
+    width: 30,
+    height: 30,
+  },
+  {
+    source: '/icons/midjourney.svg',
+    info: 'Midjourney',
     width: 30,
     height: 30,
   },
