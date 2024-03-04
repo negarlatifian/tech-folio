@@ -433,10 +433,4 @@ export const imageSrc = [
     width: 30,
     height: 30,
   },
-  {
-    source: '/icons/midjourney.svg',
-    info: 'Midjourney',
-    width: 30,
-    height: 30,
-  },
 ];

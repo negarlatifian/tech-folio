@@ -7,12 +7,24 @@ import {
   Center,
   MeshReflectorMaterial,
 } from '@react-three/drei';
-import { useFrame, useThree } from '@react-three/fiber';
+import { ThreeElements, useFrame, useThree } from '@react-three/fiber';
 import { Leva, useControls } from 'leva';
-import { MeshNormalMaterial, Vector3 } from 'three';
+import {
+  BufferGeometry,
+  Material,
+  Mesh,
+  MeshNormalMaterial,
+  NormalBufferAttributes,
+  Object3DEventMap,
+  Vector3,
+} from 'three';
 
 const Model = () => {
-  const mesh = useRef();
+  const mesh = useRef<Mesh<
+    BufferGeometry<NormalBufferAttributes>,
+    Material | Material[],
+    Object3DEventMap
+  > | null>(null);
   const { nodes } = useGLTF('media/torrus.glb');
   const { viewport } = useThree();
   useFrame(() => {
