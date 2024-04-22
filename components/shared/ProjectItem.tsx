@@ -47,7 +47,6 @@ const ProjectItem = ({
         )}
         {image ? (
           <>
-            <p>image</p>
             <Image src={image} alt='project image' width={320} height={240} />
           </>
         ) : (
