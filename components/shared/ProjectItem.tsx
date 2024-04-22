@@ -33,7 +33,7 @@ const ProjectItem = ({
     <section className='md:w-80 mt-8 border rounded-[20px] p-4 md:pb-2 border-black flex flex-col'>
       <CirclesRow size={6} />
       <div className='mt-4 pb-8'>
-        <h2 className='font-sans'>{title}</h2>
+        <h2 className='font-sans h-10 '>{title}</h2>
         {video && (
           <video
             className='rounded mt-5'
@@ -47,14 +47,20 @@ const ProjectItem = ({
         )}
         {image ? (
           <>
-            <Image src={image} alt='project image' width={320} height={240} />
+            <Image
+              src={image}
+              alt='project image'
+              width={320}
+              height={240}
+              className='mt-5'
+            />
           </>
         ) : (
           <></>
         )}
         <div className='flex flex-col min-h-40'>
-          <p className='font-ibm mt-2 min-h-32'>{description}</p>
-          <ul className='flex flex-row gap-5 flex-wrap px-4 min-h-32'>
+          <p className='font-ibm mt-2 min-h-32 h-[11rem]'>{description}</p>
+          <ul className='flex flex-row gap-5 flex-wrap px-4 min-h-32 h-[7rem]'>
             {techStack.map((tech, i) => {
               return (
                 <li
@@ -77,8 +83,8 @@ const ProjectItem = ({
           </ul>
         </div>
         {/* <Backutton link={project.link} /> */}
-        <div className='h-9 w-auto flex md:flex-row gap-32 '>
-          <div>
+        <div className='h-9 w-auto flex md:flex-row gap-32 align-middle '>
+          <div className='flex align-middle'>
             <Button
               href={link}
               backgroundColor='#F79675'

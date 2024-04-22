@@ -334,34 +334,34 @@ export const projects = [
       },
     ],
   },
-  {
-    title: 'Coding Blog',
-    description: 'A bloging webapp coded in NextJs.',
-    stack: 'NextJs, MongoDB',
-    link: 'https://github.com/negarlatifian/blog',
-    demo: ' ',
-    video: ' ',
-    techStack: [
-      {
-        source: '/icons/Nextjs-logo.svg',
-        info: 'NextJs',
-        width: 30,
-        height: 6,
-      },
-      {
-        source: '/icons/React-icon.svg',
-        info: 'React',
-        width: 22,
-        height: 23,
-      },
-      {
-        source: '/icons/CSS3_logo_and_wordmark.svg',
-        info: 'CSS',
-        width: 30,
-        height: 30,
-      },
-    ],
-  },
+  // {
+  //   title: 'Coding Blog',
+  //   description: 'A bloging webapp coded in NextJs.',
+  //   stack: 'NextJs, MongoDB',
+  //   link: 'https://github.com/negarlatifian/blog',
+  //   demo: ' ',
+  //   video: ' ',
+  //   techStack: [
+  //     {
+  //       source: '/icons/Nextjs-logo.svg',
+  //       info: 'NextJs',
+  //       width: 30,
+  //       height: 6,
+  //     },
+  //     {
+  //       source: '/icons/React-icon.svg',
+  //       info: 'React',
+  //       width: 22,
+  //       height: 23,
+  //     },
+  //     {
+  //       source: '/icons/CSS3_logo_and_wordmark.svg',
+  //       info: 'CSS',
+  //       width: 30,
+  //       height: 30,
+  //     },
+  //   ],
+  // },
 ];
 
 export const imageSrc = [

@@ -5,7 +5,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className=' bg-blue w-full mt-24 md:px-32 px-5 '>
-      <div className=' flex flex-center justify-center wrapper p-3 gap-5 md:p-5 text-center'>
+      <div className=' flex flex-center justify-center md:justify-start wrapper p-3 gap-5 md:p-5 text-center'>
         <Link href='/'>
           <Image
             src='/images/logo-grey.svg'
