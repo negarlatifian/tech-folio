@@ -58,7 +58,7 @@ export const projects = [
   {
     title: 'The Degrowth Toolbox for Artistic Pratcices',
     description:
-      'The Degrowth Toolbox for Artistic Practices was initiated in 2021 by Alexandra Papademetriou.',
+      'The Degrowth Toolbox for Artistic Practices developed for artist Alexandra Papademetriou.',
     link: 'https://github.com/negarlatifian/degrowth',
     demo: 'https://www.degrowthtoolbox.net/',
     video: '/videos/degrowth.mp4',

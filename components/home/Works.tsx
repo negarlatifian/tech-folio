@@ -8,7 +8,8 @@ type WorkItemProps = {
   description: string;
   link: string;
   demo: string;
-  video: string;
+  video?: string;
+  image?: string;
   techStack: ITechStack[];
 };
 
@@ -33,6 +34,7 @@ const Works = () => {
             link={project.link}
             demo={project.demo}
             video={project.video}
+            image={project.image}
           />
         ))}
       </div>
