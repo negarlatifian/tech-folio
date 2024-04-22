@@ -5,7 +5,6 @@ import {
   MeshTransmissionMaterial,
   Text3D,
   Center,
-  MeshReflectorMaterial,
 } from '@react-three/drei';
 import { ThreeElements, useFrame, useThree } from '@react-three/fiber';
 import { Leva, useControls } from 'leva';
@@ -13,10 +12,8 @@ import {
   BufferGeometry,
   Material,
   Mesh,
-  MeshNormalMaterial,
   NormalBufferAttributes,
   Object3DEventMap,
-  Vector3,
 } from 'three';
 
 const Model = () => {
@@ -63,7 +60,7 @@ const Model = () => {
             roughness={0.528}
             emissive={'#212121'}
           /> */}
-          <meshPhongMaterial
+          {/* <meshPhongMaterial
             color={'#F79675'}
             emissive={'#F79675'}
             specular={'#000000'}
@@ -71,13 +68,14 @@ const Model = () => {
             reflectivity={1}
             opacity={0}
             refractionRatio={1}
-          />
-          <ambientLight color={'#39566a'} intensity={7} />
+            map={null}
+          /> */}
+          {/* <ambientLight color={'#39566a'} intensity={7} /> */}
         </Text3D>
       </Center>
       <Leva hidden />
       <mesh ref={mesh} {...nodes.Torus002}>
-        <MeshTransmissionMaterial {...materialProps} />
+        <MeshTransmissionMaterial {...materialProps} map={null} />
       </mesh>
     </group>
   );

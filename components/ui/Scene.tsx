@@ -9,7 +9,7 @@ const Scene = () => {
     <Canvas>
       <ambientLight color={'#39566a'} intensity={7} />
       {/* <directionalLight intensity={3} position={[0, 3, 2]} /> */}
-      <Environment preset='city' />
+      <Environment preset='city' map={null} />
       <Model />
     </Canvas>
   );

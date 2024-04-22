@@ -5,7 +5,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <section className='mt-40'>
+    <section className='mt-[30rem] sm:h-[60vh] md:h-[100vh]'>
       <h1 className='font-sans text-3xl '>Skills</h1>
       <div className='flex flex-wrap gap-8 w-10/12 mt-10 justify-center mr-auto ml-auto'>
         {imageSrc.map((image, index) => (
