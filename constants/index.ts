@@ -107,7 +107,7 @@ export const projects = [
       'URL shortner project which can provide shorter links for long URLS',
     link: 'https://github.com/negarlatifian/MiniLink',
     demo: '',
-    video: ' ',
+    image: '/videos/minilink.png',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -154,7 +154,7 @@ export const projects = [
     stack: 'React, Redux, Typescript, MongoDB, Express, HTML, CSS',
     link: 'https://github.com/negarlatifian/final_project_CVapp',
     demo: '',
-    video: ' ',
+    image: '/videos/resumate.png',
     techStack: [
       {
         source: '/icons/React-icon.svg',
@@ -235,36 +235,36 @@ export const projects = [
       },
     ],
   },
-  {
-    title: 'Simon Game',
-    description:
-      'Web version of simon game, a memory which game creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex.',
-    stack: 'HTML, CSS, JavaScript',
-    link: 'https://github.com/negarlatifian/simongame',
-    demo: '',
-    video: ' ',
-    techStack: [
-      {
-        source: '/icons/JavaScript-logo.svg',
-        info: 'JavaScript',
-        width: 30,
-        height: 30,
-      },
+  // {
+  //   title: 'Simon Game',
+  //   description:
+  //     'Web version of simon game, a memory which game creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex.',
+  //   stack: 'HTML, CSS, JavaScript',
+  //   link: 'https://github.com/negarlatifian/simongame',
+  //   demo: '',
+  //   video: ' ',
+  //   techStack: [
+  //     {
+  //       source: '/icons/JavaScript-logo.svg',
+  //       info: 'JavaScript',
+  //       width: 30,
+  //       height: 30,
+  //     },
 
-      {
-        source: '/icons/HTML5_logo_and_wordmark.svg',
-        info: 'HTML',
-        width: 30,
-        height: 30,
-      },
-      {
-        source: '/icons/CSS3_logo_and_wordmark.svg',
-        info: 'CSS',
-        width: 30,
-        height: 30,
-      },
-    ],
-  },
+  //     {
+  //       source: '/icons/HTML5_logo_and_wordmark.svg',
+  //       info: 'HTML',
+  //       width: 30,
+  //       height: 30,
+  //     },
+  //     {
+  //       source: '/icons/CSS3_logo_and_wordmark.svg',
+  //       info: 'CSS',
+  //       width: 30,
+  //       height: 30,
+  //     },
+  //   ],
+  // },
   // {
   //   title: 'To Do List',
   //   description:
